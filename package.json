@@ -1,5 +1,5 @@
 {
-  "name": "node-db2-challenge",
+  "name": "db2-challenge",
   "version": "1.0.0",
   "description": "Node DB 2 Module Challenge",
   "main": "index.js",
@@ -9,5 +9,22 @@
   "author": "Lambda School",
   "devDependencies": {
     "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coltynw/webdb-ii-challenge.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coltynw/webdb-ii-challenge/issues"
+  },
+  "homepage": "https://github.com/coltynw/webdb-ii-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.8",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.1"
   }
 }
